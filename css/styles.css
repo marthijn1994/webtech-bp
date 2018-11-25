@@ -422,7 +422,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.over-ons-blokken article h3 {
+.over-ons-blokken article .over-ons-content h3 {
     font-size: 18px;
     font-weight: bold;
     color: #009246;
@@ -433,10 +433,44 @@ footer {
     max-width: 100%;
 }
 
-.over-ons-blokken article p {
+.over-ons-blokken article .over-ons-content p {
     margin-bottom: 20px;
     display: block;
     overflow: hidden;
+}
+
+.over-ons-blokken article .over-ons-content strong {
+    font-weight: bold;
+}
+
+.over-ons-blokken article .over-ons-content em {
+    font-style: italic;
+}
+
+.over-ons-blokken article .over-ons-content a {
+    color: #CE2B37;
+    text-decoration: none;
+}
+
+.over-ons-blokken article .over-ons-content a:hover {
+    text-decoration: underline;
+}
+
+.over-ons-blokken article .over-ons-content ul {
+    list-style-type: square;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.over-ons-blokken article .over-ons-content ol {
+    list-style: decimal;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.over-ons-blokken article .over-ons-content p + ul,
+.over-ons-blokken article .over-ons-content p + ol {
+    margin-top: -15px;
 }
 
 @media (min-width: 562px) {
