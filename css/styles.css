@@ -477,18 +477,21 @@ footer {
     margin-bottom: 30px;
 }
 
-.login-registratie-forms .form-group {
+.login-registratie-forms .form-group,
+.forum-bericht-form .form-group {
     margin-bottom: 20px;
 }
 
-.login-registratie-forms h2 {
+.login-registratie-forms h2,
+.forum-bericht-form h2 {
     font-size: 20px;
     font-weight: bold;
     color: #009246;
     margin-bottom: 15px;
 }
 
-.login-registratie-forms label {
+.login-registratie-forms label,
+.forum-bericht-form label {
     font-weight: bold;
     font-size: 16px;
     color: #777777;
@@ -500,7 +503,11 @@ footer {
 .login-registratie-forms input[type='text'],
 .login-registratie-forms input[type='email'],
 .login-registratie-forms input[type='password'],
-.login-registratie-forms textarea {
+.login-registratie-forms textarea,
+.forum-bericht-form input[type='text'],
+.forum-bericht-form input[type='email'],
+.forum-bericht-form input[type='password'],
+.forum-bericht-form textarea {
     outline: 0;
     border: 0;
     background: transparent;
@@ -508,8 +515,19 @@ footer {
     width: 250px;
 }
 
+.login-registratie-forms textarea,
+.forum-bericht-form textarea {
+    min-height: 100px;
+}
+
 .login-registratie-forms input[type='submit'] {
     outline: none;
+    cursor: pointer;
+}
+
+.forum-bericht-form {
+    margin-bottom: 30px;
+    justify-content: center;
 }
 
 @media (min-width: 562px) {
