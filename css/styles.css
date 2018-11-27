@@ -473,6 +473,45 @@ footer {
     margin-top: -15px;
 }
 
+.login-registratie-forms {
+    margin-bottom: 30px;
+}
+
+.login-registratie-forms .form-group {
+    margin-bottom: 20px;
+}
+
+.login-registratie-forms h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009246;
+    margin-bottom: 15px;
+}
+
+.login-registratie-forms label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #777777;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.login-registratie-forms input[type='text'],
+.login-registratie-forms input[type='email'],
+.login-registratie-forms input[type='password'],
+.login-registratie-forms textarea {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #009246;
+    width: 250px;
+}
+
+.login-registratie-forms input[type='submit'] {
+    outline: none;
+}
+
 @media (min-width: 562px) {
     
 }
