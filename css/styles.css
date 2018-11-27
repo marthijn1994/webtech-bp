@@ -496,7 +496,7 @@ footer {
     font-size: 16px;
     color: #777777;
     display: inline-block;
-    width: 200px;
+    width: 100%;
     vertical-align: top;
 }
 
@@ -512,7 +512,7 @@ footer {
     border: 0;
     background: transparent;
     border-bottom: 2px solid #009246;
-    width: 250px;
+    width: 100%;
 }
 
 .login-registratie-forms textarea,
@@ -578,6 +578,23 @@ footer {
 
     .over-ons-blokken article img {
         max-width: 30%;
+    }
+
+
+    .login-registratie-forms label,
+    .forum-bericht-form label {
+        width: 200px;
+    }
+
+    .login-registratie-forms input[type='text'],
+    .login-registratie-forms input[type='email'],
+    .login-registratie-forms input[type='password'],
+    .login-registratie-forms textarea,
+    .forum-bericht-form input[type='text'],
+    .forum-bericht-form input[type='email'],
+    .forum-bericht-form input[type='password'],
+    .forum-bericht-form textarea {
+        width: 250px;
     }
 }
 
