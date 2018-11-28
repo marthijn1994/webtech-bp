@@ -28,7 +28,7 @@
         <div class="row">
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="over-ons.html">Over Ons</a></li>
                     <li><a href="forum.html">Forum</a>
                         <ul>
@@ -44,7 +44,7 @@
                             <li><a href="#">Eten uit Italië</a></li>
                         </ul>
                     </li>
-                    <li><a href="bezoeker.html">Bezoeker</a></li>
+                    <li class="current"><a href="bezoeker.html">Bezoeker</a></li>
                 </ul>
             </nav>
         </div>
@@ -141,8 +141,17 @@
                 <h2>Bericht plaatsen op het forum</h2>
                 <form action="">
                     <div class="form-group">
-                        <label for="titel">Bericht Titel</label>
+                        <label for="titel">Titel</label>
                         <input type="text" name="titel" id="titel">
+                    </div>
+                    <div class="form-group">
+                        <label for="rubriek">Rubriek</label>
+                        <select name="rubriek" id="rubriek">
+                            <option value="">Kies een rubriek</option>
+                            <option value="vakantie">Vakantie</option>
+                            <option value="populaireplaatsen">Populaire Plaatsen</option>
+                            <option value="eten">Eten</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label for="bericht">Bericht</label>

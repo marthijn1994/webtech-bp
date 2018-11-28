@@ -450,6 +450,7 @@ footer {
     margin-bottom: 20px;
     display: block;
     overflow: hidden;
+    line-height: 18px;
 }
 
 .over-ons-blokken article .over-ons-content strong {
