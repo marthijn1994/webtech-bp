@@ -60,6 +60,15 @@ img {
     font-size: 24px;
 }
 
+.article-header {
+    background: #009246;
+}
+
+.article-header h2 {
+    padding-top: 15px;
+    color: #fff;
+}
+
 .button {
     display: inline-block;
     padding: 6px 10px;
