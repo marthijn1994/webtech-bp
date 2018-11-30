@@ -61,7 +61,7 @@
 
             <div class="row zoeken">
                 <div class="col-12 form-container">
-                    <form action="">
+                    <form action="forum.html" method="get">
                         <input type="search" name="zoekvideo" id="zoekvideo" placeholder="Zoek naar bericht...">
                         <input type="submit" value="Zoek">
                     </form>
@@ -99,10 +99,15 @@
                             <header>
                                 <h2>Reacties:</h2>
                             </header>
-                            <section class="comment-form">
-
-                            </section>
                             <section class="comment-items">
+                                <section class="comment-form">
+                                    <form action="forum.html" method="post">
+                                        <div class="form-group">
+                                            <textarea name="bericht" id="bericht"></textarea>
+                                        </div>
+                                        <input type="submit" value="Plaats reactie" class="button">
+                                    </form>
+                                </section>
                                 <div class="rubriek-item-post">
                                     <section class="item-persoon-afbeelding">
                                         <img src="images/persoon.png" alt="Persoon Avatar Afbeelding">
