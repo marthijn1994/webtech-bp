@@ -57,6 +57,18 @@ img {
     margin-bottom: 30px;
 }
 
+.video-pagina .row-title {
+    background: #009246;
+    padding: 15px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.video-pagina .row-title h2 {
+    color: #fff;
+}
+
 .row-title h2 {
     font-size: 24px;
 }
@@ -297,70 +309,6 @@ header input[type="submit"] {
     vertical-align: middle;
 }
 
-.forumbijdragen {
-    margin-bottom: 30px;
-    justify-content: center;
-}
-
-.forumbijdragen article {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 30px;
-}
-
-.forumbijdragen .persoon-afbeelding {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 25%;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    display: none;
-}
-
-.forumbijdragen .persoon-afbeelding img {
-    border-radius: 50%;
-    width: 140px;
-    height: 140px;
-}
-
-.forumbijdragen .bericht-meta {
-    display: block;
-    width: 100%;
-    font-size: 13px;
-    color: #777777;
-    margin-bottom: 5px;
-}
-
-.forumbijdragen .bericht-meta time {
-    font-style: italic;
-}
-
-.forumbijdragen .forum-bericht {
-    width: 100%;
-    background: #eee;
-    padding: 15px;
-    position: relative;
-}
-
-.forumbijdragen .forum-bericht h3 {
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.forumbijdragen .forum-bericht p {
-    font-size: 15px;
-    line-height: 21px;
-}
-
-.forumbijdragen .forum-bericht .button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
 
 footer {
     clear: both;
@@ -661,6 +609,71 @@ footer {
     background: url('../images/icons/reacties-icon.svg') no-repeat;
     margin-right: 5px;
     margin-top: -2px;
+}
+
+.forumbijdragen {
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.forumbijdragen article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.forumbijdragen .persoon-afbeelding {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    display: none;
+}
+
+.forumbijdragen .persoon-afbeelding img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.forumbijdragen .bericht-meta {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.forumbijdragen .bericht-meta time {
+    font-style: italic;
+}
+
+.forumbijdragen .forum-bericht {
+    width: 100%;
+    background: #eee;
+    padding: 15px;
+    position: relative;
+}
+
+.forumbijdragen .forum-bericht h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.forumbijdragen .forum-bericht p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.forumbijdragen .forum-bericht .button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .comments header {
